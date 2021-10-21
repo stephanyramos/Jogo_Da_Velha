@@ -19,7 +19,7 @@ button{
     width: 170px;
     height: 70px;
     border-radius: 2em;
-    margin: 100px 600px 200px 850px;
+    margin: 300px 600px 200px 200px;
     background-color:rgb(199, 67, 192);
     color: white;
     gap: 5em;
@@ -37,13 +37,23 @@ button{
     border:solid 3px;
     color: palevioletred;
 }
- 
+ .img{
+     width: auto;
+     height: 300px;
+     font-size: small;
+ }
 .linha{
     height:200px;
     border-bottom:solid 1px;  
     /* background-color: palevioletred;  */
     font-size: small;
     color: palevioletred;
+    
+}
+.linha :hover{
+    opacity:3;
+  transform: scale(1);
+  background-color: rgba(240, 248, 255, 0.356);
 }
  
 .casa{
@@ -52,4 +62,5 @@ button{
  color: palevioletred;
     border-right:solid 1px;
     float:left;
+    
 }
